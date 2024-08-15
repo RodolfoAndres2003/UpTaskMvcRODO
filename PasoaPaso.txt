@@ -1,0 +1,31 @@
+UpTask 
+
+
+1- instalar las dependencias de npm
+2- composer update
+3- npx gulp(inicia gulp)
+4- configurar y crear la base de datos
+
+AUTENTICACION
+
+1- crear controlador(LoginController)
+	1.1 - crear clase (logincontroller)
+		1.2 - crear metodo(login)
+2.- Definir routing
+	$router->get('/', [LoginController::class, 'login']);
+	$router->post('/', [LoginController::class, 'login']);
+	...
+3.- Crear vistas
+	carpeta(auth)
+4.- creando el Login, crear cuenta, olvide mi password 
+5.- añador el css
+
+USUARIO
+1.- Crear el Modelo de Usuarios
+2.- Mostrando mensajes de error
+3.- Hash al password
+
+//CODIGO PARA ITERAR DENTRO DE UN FORMDATA
+for(let valor of datos.values()){
+            console.log(valor);
+        }
